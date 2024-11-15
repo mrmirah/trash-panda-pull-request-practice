@@ -9,17 +9,17 @@ public class AverageCalculator {
         int[] numbers = new int[n];
 
         System.out.println("Enter the numbers separated by spaces: ");
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             numbers[i] = sc.nextInt();
         }
 
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] < 0) continue;
-            sum += numbers[i] / n;
+            if (numbers[i] == 0) continue;
+            sum += numbers[i];
         }
 
-        double average = (int) (sum / n);
+        double average = (double) sum / n;
         System.out.println("The average is: " + average);
     }
 }
