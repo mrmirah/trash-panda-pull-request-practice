@@ -3,12 +3,12 @@ public class Fibonacci {
         int n = 10;
         int a = 0, b = 1;
 
-        System.out.print(a + " " + b); // First two numbers
+        System.out.print(a + " " + b); 
 
         for (int i = 2; i < n; i++) {
             int c = a + b;
-            a = b;  // Missing update
-            System.out.print(" " + a); // Incorrect number printed
+            a = b; 
+            System.out.print(" " + a);
         }
     }
 }
