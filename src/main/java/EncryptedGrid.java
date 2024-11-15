@@ -44,7 +44,7 @@ public class EncryptedGrid {
         }
 
        
-        int totalSum = rowSum + colSum - grid[row][col];
+        int totalSum = rowSum + colSum;
 
         System.out.println("The encrypted sum is: " + totalSum);
     }
