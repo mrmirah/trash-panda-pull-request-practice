@@ -9,7 +9,7 @@ public class AverageCalculator {
         int[] numbers = new int[n];
 
         System.out.println("Enter the numbers separated by spaces: ");
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i < n; i++) {
             numbers[i] = sc.nextInt();
         }
 
