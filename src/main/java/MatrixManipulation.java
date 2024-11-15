@@ -23,7 +23,7 @@ public class MatrixManipulation {
 
         System.out.println("Enter elements of matrix A:");
         for (int i = 0; i < rowsA; i++) {
-            for (int j = 0; j <= colsA; j++) {
+            for (int j = 0; j < colsA; j++) {
                 A[i][j] = sc.nextInt();
             }
         }
