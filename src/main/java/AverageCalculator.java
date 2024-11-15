@@ -15,7 +15,7 @@ public class AverageCalculator {
 
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] < 0) continue;
+            if (numbers[i] == 0) continue;
             sum += numbers[i] / n;
         }
 
