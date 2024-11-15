@@ -7,8 +7,9 @@ public class Fibonacci {
 
         for (int i = 2; i < n; i++) {
             int c = a + b;
-            a = b; 
-            System.out.print(" " + a);
+            a = b;
+            b = c; // adjusted second pointer
+            System.out.print(" " + c); // print sum
         }
     }
 }
