@@ -6,8 +6,8 @@ public class EncryptedGrid {
 
 
         int[][] grid = new int[5][5];
-        for (int i = 0; i <= 5; i++) {
-            for (int j = 0; j <= 5; j++) {
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
                 grid[i][j] = i * j;
             }
         }
@@ -27,19 +27,19 @@ public class EncryptedGrid {
         int col = sc.nextInt();
 
 
-        if (row < 0 || col < 0 || row > 5 || col > 5) {
+        if (row < 0 || col < 0 || row >= 5 || col >= 5) {
             System.out.println("Invalid row or column!");
             return;
         }
 
 
         int rowSum = 0;
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i < 5; i++) {
             rowSum += grid[row][i];
         }
 
         int colSum = 0;
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i < 5; i++) {
             colSum += grid[i][col];
         }
 
