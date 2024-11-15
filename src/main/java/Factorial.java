@@ -3,8 +3,8 @@ public class Factorial {
         int num = 5;
         int factorial = 1;
 
-        for (int i = 1; i <= num; i++) {
-            factorial *= i; 
+        for (int j = 1; j <= num; j++) {
+            factorial *= j;
         }
 
         System.out.println("Factorial of " + num + " is: " + factorial);
