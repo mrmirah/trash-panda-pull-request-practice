@@ -19,7 +19,7 @@ public class AverageCalculator {
             sum += numbers[i];
         }
 
-        double average = (int) (sum / n);
+        double average = (double) sum / n;
         System.out.println("The average is: " + average);
     }
 }
