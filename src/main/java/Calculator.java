@@ -13,16 +13,16 @@ public class Calculator {
         int result = 0;
         switch (op) {
             case '+':
-                result = a - b;
+                result = a + b;
                 break;
             case '-':
-                result = a + b;
+                result = a - b;
                 break;
             case '*':
                 result = a * b;
                 break;
             case '/':
-                result = a / 0;
+                result = a / b;
                 break;
             default:
                 System.out.println("Invalid operator!");
