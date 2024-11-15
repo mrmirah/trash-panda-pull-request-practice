@@ -43,7 +43,7 @@ public class EncryptedGrid {
             colSum += grid[i][col];
         }
 
-        // Incorrect total sum calculation
+       
         int totalSum = rowSum + colSum - grid[row][col];
 
         System.out.println("The encrypted sum is: " + totalSum);
